@@ -1,0 +1,24 @@
+image:
+  name: vyos-rolling
+  distribution: VyOS
+  release: rolling
+  description: |-
+    VyOS LXC {{ image.release }}
+  architecture: x86_64
+
+source:
+  downloader: rootfs-http
+  url: file:///go/to/path/filesystem.squashfs
+
+packages:
+  custom_manager:
+    install:
+      cmd: echo "No Used" >/dev/null 2>&1
+    remove:
+      cmd: echo "No Used" >/dev/null 2>&1
+    clean:
+      cmd: echo "No Used" >/dev/null 2>&1
+    refresh:
+      cmd: echo "No Used" >/dev/null 2>&1
+    update:
+      cmd: echo "No Used" >/dev/null 2>&1
