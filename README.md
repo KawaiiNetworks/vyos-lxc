@@ -3,7 +3,7 @@ VyOS rootfs for LXC. Most functions are working properly.
 
 ## Usage
 
-Download rootfs from, or build it.
+Download rootfs from https://github.com/KawaiiNetworks/vyos-lxc/releases , or build it.
 
 PVE console mode: console, features: fuse mknod nesting
 
