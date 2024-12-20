@@ -84,4 +84,7 @@ ln -s ../../../config config
 distrobuilder pack-lxc vyos.yaml source
 ```
 
+## Thanks
+
+https://github.com/jack9603301/vyos-on-lxd
 
